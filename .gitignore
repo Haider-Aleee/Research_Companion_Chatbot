@@ -1,0 +1,92 @@
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files / secrets
+.env
+.env.*
+.env.local
+secrets.json
+
+# Caches
+.cache/
+__pypackages__/
+pip-wheel-metadata/
+*.whl
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
+
+# Large / generated model/data artifacts (local only)
+# Backend vector DB and FAISS index
+Backend/chroma_db/
+Backend/faiss/
+
+# Backend binary/index/pickle files
+Backend/*.pkl
+Backend/*.db
+Backend/*.sqlite
+Backend/*.bin
+
+# Model weights and checkpoints (keep model config/tokenizer files if desired)
+Backend/model/*.safetensors
+Backend/model/pytorch_model.bin
+Backend/model/*.ckpt
+Backend/model/*.pt
+
+# Frontend
+Frontend/node_modules/
+Frontend/build/
+Frontend/.env.local
+
+# Misc large formats
+*.onnx
+*.h5
+*.hdf5
+
+# Private keys
+*.pem
+*.key
+
+# Allowlist example (uncomment to keep a specific file tracked)
+# !Backend/model/README.md
+
+# End of file
