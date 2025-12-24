@@ -1,0 +1,11 @@
+{
+  "model_name": "google/flan-t5-base",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "lora_config": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.1
+  },
+  "num_papers": 20,
+  "top_k": 5
+}

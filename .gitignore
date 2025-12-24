@@ -89,4 +89,25 @@ Frontend/.env.local
 # Allowlist example (uncomment to keep a specific file tracked)
 # !Backend/model/README.md
 
+# Node / Frontend (create-react-app / Vite / Next / PNPM)
+Frontend/node_modules/
+Frontend/.cache/
+Frontend/.vite/
+Frontend/.parcel-cache/
+Frontend/dist/
+Frontend/.next/
+Frontend/out/
+Frontend/build/
+Frontend/.vercel/
+Frontend/.expo/
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/.env.local
+
+# Keep lockfiles for reproducible installs (do NOT add these to .gitignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
 # End of file
